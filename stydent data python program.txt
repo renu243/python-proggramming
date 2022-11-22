@@ -1,0 +1,31 @@
+#program to read students data
+
+sno=int(input("enter student no:"))
+name=input('enter student name:')
+group=input('enter group:')
+gender=input('enter gender of the student:')
+phno=int(input('enter phone number:'))
+address=input('enter student address:')
+degree_percentage=float(input('enter percentage:'))
+print('sno:',sno)
+print('name:',name)
+print('group:',group)
+print('gender:',gender)
+print('phno:',phno)
+print('address:',address)
+print('degree_percentage:',degree_percentage)
+OUTPUT:
+enter student no:123
+enter student name:naresh
+enter group:bca
+enter gender of the student:male
+enter phone number:6301662660
+enter student address:jublihills,hyderabad
+enter percentage:87
+sno: 123
+name: naresh
+group: bca
+gender: male
+phno: 6301662660
+address: jublihills,hyderabad
+degree_percentage: 87.0
