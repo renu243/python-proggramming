@@ -1,0 +1,14 @@
+#write a program to calculate EMI
+
+p=int(input('enter principal amount:'))
+t=int(input('enter time period:'))
+r=float(input('enter rate of interest:'))
+si=p*t*r/100
+emi=(si+p)/t*12
+print('early monthly interest:',emi)
+            
+OUTPUT:
+enter principal amount:100000
+enter time period:3
+enter rate of interest:23.5
+early monthly interest: 682000.0

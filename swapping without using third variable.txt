@@ -1,0 +1,12 @@
+#swapping without using third varaible
+
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+a=a^b
+b=a^b
+a=a^b
+print('a value:',a,'b value:',b)
+OUTPUT:
+enter a:20
+enter b:40
+a value: 40 b value: 20
