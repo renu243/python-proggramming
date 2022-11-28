@@ -1,0 +1,15 @@
+# THE NUMBER IS BELOW 100 OR NOT
+
+a=int(input('enter a number:'))
+if a<=100:
+    print('the number is less than hundred')
+else:
+    print('the number is greater than hundred')
+OUTPUT:
+enter a number:56
+the number is less than hundred
+enter a number:123
+the number is greater than hundred
+
+
+    
