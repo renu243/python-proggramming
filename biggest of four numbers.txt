@@ -1,0 +1,27 @@
+#biggest of four numbers
+a=int(input('enter a number:'))
+b=int(input('enter a number:'))
+c=int(input('enter a number:'))
+d=int(input('enter a number:'))
+if a>b:
+    if a>c:
+        if a>d:
+            print('a is big')
+if b>a:
+    if b>c:
+        if b>d:
+            print('b is big')
+if c>a:
+    if c>b:
+        if c>d:
+            print('c is big')
+if d>a:
+    if d>b:
+        if d>c:
+            print('d is big')
+OUTPUT:
+enter a number:10
+enter a number:20
+enter a number:30
+enter a number:40
+d is big

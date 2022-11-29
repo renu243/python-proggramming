@@ -1,0 +1,42 @@
+# student exam results
+
+sno=int(input('enter a serial number:'))
+sname=input('enter student name:')
+group=input('enter your course u are studying:')
+s1=int(input('enter maths marks:'))
+s2=int(input('enter physics marks:'))
+s3=int(input('enter computer marks:'))
+total=s1+s2+s3
+avg=total//3
+print('sno:',sno)
+print('name:',sname)
+print('course:',group)
+print('total:',total)
+print('the final result is:')
+if avg>90:
+    print('passed in distinction:')
+elif avg>70:
+    print('passed in first class:')
+elif avg>50:
+    print('passed in second class:')
+elif avg>45:
+    print('passed in third class:')
+elif avg>40:
+    print('you have just passed:')
+else:
+    print('fail')
+    
+      
+OUTPUT:
+enter a serial number:345
+enter student name:joshika
+enter your course u are studying:bsc
+enter maths marks:78
+enter physics marks:89
+enter computer marks:67
+sno: 345
+name: joshika
+course: bsc
+total: 234
+the final result is:
+passed in first class:

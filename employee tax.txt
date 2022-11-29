@@ -1,0 +1,44 @@
+# to genarate employee tax
+name=input('enter employee name:')
+pos=input('enter designation/position:')
+sal=int(input('enter employee basic salary:'))
+da=int(input('enter emp dear allowance:'))
+ta=int(input('enter emp transport allowance:'))
+hra=int(input('enter house rent allowance:'))
+netsal=sal+da+ta+hra
+if netsal>100000:
+   tax=netsal*10/100
+   print('the tax is:',tax)
+elif netsal>50000:
+    tax=netsal*7/100
+    print('the tax is:',tax)
+elif netsal>40000:
+    tax=netsal*4/100
+    print('the tax is:',tax)
+elif netsal>20000:
+    tax=netsal*2/100
+    print('the tax is:',tax)
+else:
+    print('there is no tax')
+OUTPUT:
+enter employee name:dinesh
+enter designation/position:developer
+enter employee basic salary:80000
+enter emp dear allowance:3000
+enter emp transport allowance:10000
+enter house rent allowance:20000
+the tax is: 11300.0
+enter employee name:KUMAR
+enter designation/position:designer
+enter employee basic salary:200000
+enter emp dear allowance:30000
+enter emp transport allowance:20000
+enter house rent allowance:50000
+the tax is: 30000.0
+
+
+
+
+
+
+
