@@ -1,0 +1,49 @@
+# to genarate supermarket bill
+cphno=int(input('enter customer phone number:'))
+name=input('enter customer name:')
+address=input('enter customer address:')
+soap=40
+rice_packet=100
+cereals=80
+maize=150
+oil=450
+soap_quan=int(input('enter how many soaps you want?'))
+rice_packet_quan=int(input('enter how many rice_packets you want?'))
+cereals_quan=int(input('enter how many cereals you want?'))
+maize_quan=int(input('enter how many maize packets you want?'))
+oil_quan=int(input('enter how many oil packets you want?'))
+bill=(soap*soap_quan)+(rice_packet*rice_packet_quan)+(cereals*cereals_quan)+(maize*maize_quan)+(oil*oil_quan)
+print('the bill is:',bill)
+if bill>3000:
+    tax=bill*5/100
+    print('the tax is:',tax)
+elif bill>2000:
+    tax=bill*7/100
+    print('the tax is:',tax)
+elif bill>1000:
+    tax=bill*10/100
+    print('the tax is:',tax)
+elif bill>500:
+    tax=bill*15/100
+    print('the tax is:',tax)
+else:
+    tax=hundred_rs
+    print('the tax is:',tax)
+    tot_tax=tax+bill
+    print('the total tax is:',tot_tax)
+    print('customer phne no:',cphno)
+    print('customer name:',name)
+    print('customer address:',address)
+    print('super market bill is:',bill)
+    print('market bill include tax:',tot_tax)
+OUTPUT:
+enter customer phone number:9989316580
+enter customer name:sree
+enter customer address:kakinada
+enter how many soaps you want?20
+enter how many rice_packets you want?2
+enter how many cereals you want?1
+enter how many maize packets you want?2
+enter how many oil packets you want?3
+the bill is: 2730
+the tax is: 191.1
