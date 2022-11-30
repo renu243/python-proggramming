@@ -1,0 +1,15 @@
+# to calculate electricity bill
+amp=int(input('enter the amperes:'))
+volt=int(input('enter the volts:'))
+usage=int(input('enter you have used current:'))
+rate=int(input('enter electricity rate:'))
+watts=amp*volt
+kilowatts=watts*usage/1000
+bill=kilowatts*rate
+print('the electricity bill is:',bill)
+OUTPUT:
+enter the amperes:200
+enter the volts:100
+enter you have used current:345
+enter electricity rate:20
+the electricity bill is: 138000.0

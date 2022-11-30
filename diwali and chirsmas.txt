@@ -1,0 +1,42 @@
+# discounts on diwali and chistmas
+cno=int(input('enter a customer phne no:'))
+cname=input('enter a customer name:')
+add=input('enter a adress:')
+bill=int(input('enter a  diwali shopping bill:'))
+coupon=input('enter coupon code:')
+if coupon=='diwali' and bill>=5000:
+    dis=bill*10/100
+if coupon=='diwali' and bill>=3000:
+    dis=bill*6/100
+if coupon=='diwali' and bill>=1000:
+    dis=bill*4/100
+else:
+    dis=0
+if coupon=='chirstmas' and bill>=3000:
+    dis=bill*20/100
+if coupon=='chirstmas' and bill>=2000:
+    dis=bill*10/100
+if coupon=='chirstmas' and bill>=1000:
+    dis=bill*5/100
+else:
+    dis=0
+    tax=bill+dis
+    print('customer name:',cname)
+    print('customer ohne no:',cno)
+    print('customer address:',add)
+    print('total bill is:',bill)
+    print('total discount is:',dis)
+    print('total tax is:',tax)
+    
+OUTPUT:
+enter a customer phne no:9989316580
+enter a customer name:sreeja
+enter a adress:srikakulam
+enter a  diwali shopping bill:4000
+enter coupon code:diwali
+customer name: sreeja
+customer Phne no: 9989316580
+customer address: srikakulam
+total bill is: 4000
+total discount is: 180
+total tax is: 4180
