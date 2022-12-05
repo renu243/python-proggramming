@@ -1,0 +1,17 @@
+#count prime numbers
+
+n=int(input('enter a number:'))
+count=0
+for num in range(n):
+    if num<=1:
+        continue
+    for i in range(2,num):
+        if num %i==0:
+            break
+    else:
+        count=count+1
+print(count)
+     
+output:
+enter a number:20
+8

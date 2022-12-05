@@ -1,0 +1,23 @@
+#difference of largest and smallest number
+
+list1 = []
+
+
+num = int(input("Enter number of elements in list: "))
+ 
+
+for i in range(1, num + 1):
+
+    ele = int(input("Enter element: "))
+
+    list1.append(ele)
+
+print(max(list1)-min(list1))
+OUTPUT:
+Enter number of elements in list: 5
+Enter element: 43
+Enter element: 65
+Enter element: 32
+Enter element: 23
+Enter element: 67
+44
