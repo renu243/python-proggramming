@@ -1,0 +1,18 @@
+#armstrong number
+n=int(input('enter a number:'))
+temp=n
+sum=0
+while(n!=0):
+    rem=n%10
+    sum=sum+(rem*rem*rem)
+    n=n//10
+if(temp==sum):
+    print('Armstrong number')
+else:
+    print('Not an Armstrong number')
+    
+OUTPUT:
+enter a number:153
+Armstrong number
+enter a number:232
+Not an Armstrong number
