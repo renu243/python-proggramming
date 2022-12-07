@@ -1,0 +1,18 @@
+#fibonacci series
+
+n=int(input('enter limit:'))
+a=0
+b=1
+if n<=0:
+    print('the output is zero')
+else:
+    print(a,b,end=" ")
+    for i in range(2,n):
+        sum=a+b
+        print(sum,end=" ")
+        a=b
+        b=sum
+        
+OUTPUT:
+enter limit:5
+0 1 1 2 3 
