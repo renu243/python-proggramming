@@ -1,0 +1,17 @@
+#rows and columns
+
+r = int (input("enter the rows"))
+c= int (input("enter the col"))
+n=1
+
+for x in range(r):
+    for y in range(c):
+        print(n,end="")
+        n=n+1
+    print()
+OUTPUT:
+enter the rows3
+enter the col4
+1234
+5678
+9101112
