@@ -1,0 +1,12 @@
+# looping range
+for x in range(5):
+    for y in range(x+1):
+        print(x+1,end="")
+        
+    print()
+OUTPUT:
+1
+22
+333
+4444
+55555

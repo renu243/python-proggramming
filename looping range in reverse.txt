@@ -1,0 +1,11 @@
+# looping range from rteverse
+for x in range(5):
+    for y in range(5-x):
+        print(y+1,end="")
+        
+    print()
+12345
+1234
+123
+12
+1
