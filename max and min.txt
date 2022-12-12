@@ -1,0 +1,9 @@
+#maximum and minimum
+l=[21,32,43,34,23,12,67]
+print(l)
+print(max(l))
+print(min(l))
+OUTPUT:
+[21, 32, 43, 34, 23, 12, 67]
+67
+12
