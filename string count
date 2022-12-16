@@ -1,0 +1,13 @@
+#string count
+str1=input('enter a string:')
+n=len(str1)
+count=0
+for i in range(0,n):
+    if(str1[i].isalpha()==1):
+        count=count+1
+print(count)
+
+OUTPUT:
+
+enter a string:renu@987
+4
