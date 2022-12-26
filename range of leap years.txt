@@ -1,0 +1,19 @@
+#sum of fibonacci series
+
+p=int(input("enter your range"))
+f=0
+f1=1  
+sum1=0
+while(p!=0):
+    f2=f+f1
+    sum1=sum1+f2
+    temp=f1
+    f1=f2
+    f=f1
+    p=p-1
+print(sum1)   
+OUTPUT:
+    enter your range5
+31
+
+    

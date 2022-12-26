@@ -1,0 +1,25 @@
+# previous happy number
+def happy(n):
+    sum1=0
+    while(n!=0):
+        rem=n%10
+        sum1=sum1+(rem*rem)
+        n=n//10
+    return sum1    
+n=int(input("enter your number:"))
+i=n
+count=0
+while(i>=0):
+    k=i
+    while(k>9):
+      k=happy(k)
+
+    if (k==1):
+          count=count+1
+    if count==2:
+        break
+    i=i-1
+print(i)
+OUTPUT:
+enter your number:82
+79

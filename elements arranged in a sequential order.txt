@@ -1,0 +1,18 @@
+#print elemnts in a sequential order
+
+l=[]
+n=int(input("enter your number:"))
+l=list(map(int,input().split()))
+for i in range(1,n):
+    x=int(input())
+    l.append(x)
+l.sort()
+print(l)
+OUTPUT:
+enter your number:5
+32
+12
+37
+67
+87
+[12, 32, 37, 67, 87]

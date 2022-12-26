@@ -1,0 +1,33 @@
+# unique elemnt or not?
+
+l=[]
+n=int(input("enter your number:"))
+l=list(map(int,input().split()))
+for i in range(1,n):
+    x=int(input())
+    l.append(x)
+l1=len(l)
+l2=set(l)
+length=len(l2)
+if(l1==length):
+    print("unique")
+else:
+    print("duplicate")
+print(l2)
+OUTPUT:
+enter your number:5
+12
+34
+12
+54
+32
+duplicate
+{32, 34, 12, 54}
+enter your number:5
+12
+13
+14
+34
+45
+unique
+{34, 12, 45, 13, 14}

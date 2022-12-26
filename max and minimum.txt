@@ -1,0 +1,25 @@
+#maximum and minimum number
+l=[]
+n=int(input('enter a range:'))
+for i in range(1,n+1):
+    x=int(input())
+    l.append(x)
+print(l)
+small=large=l[0]
+for j in range(1,n):
+        if(l[j]<small):
+            small=l[j]
+        if(l[j]>large):
+            large=l[j]
+print('the maximum number is:',large)
+print('the minimum number is:',small)
+OUTPUT:
+enter a range:5
+12
+34
+56
+43
+21
+[12, 34, 56, 43, 21]
+the maximum number is: 56
+the minimum number is: 12

@@ -1,0 +1,12 @@
+#print factorial
+
+s=int(input("enter your number:"))
+i=1  
+fact=1 
+while(i<=s):
+    fact=fact*i
+print(fact) 
+
+OUTPUT:
+    enter a number: 5
+    120

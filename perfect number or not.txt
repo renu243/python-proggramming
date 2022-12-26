@@ -1,0 +1,17 @@
+#pefect number or not
+
+n=int(input("enter your number:"))
+n1=n
+i=1
+sum1=0
+while(i<n):
+    if(n%i==0):
+        sum1=sum1+i
+    i=i+1    
+if(n1==sum1):
+    print("perfect number")
+else:
+    print("not perfect")
+OUTPUT:
+enter your number:6
+perfect number

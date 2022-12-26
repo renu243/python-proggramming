@@ -1,0 +1,41 @@
+#maximum and minimum of a prime numbers
+l=[]
+a=[]
+n=int(input("enter your number:"))
+l=list(map(int,input().split()))
+a=list(map(int,input().split()))
+for i in range(1,n):
+    x=int(input())
+    l.append(x)
+
+
+for k in l:
+    i1=1
+    count=0
+    
+    while(i1<=k):
+        if(k%i1==0):
+            count=count+1
+        i1=i1+1    
+    if(count==2):
+       a.append(k)
+    
+print(a)
+print(max(a),"max prime number")
+print(min(a),"min prime number")
+OUTPUT:
+enter your number:10
+2
+3
+5
+7
+11
+37
+43
+47
+56
+32
+12
+[3, 2, 5, 7, 11, 37, 43, 47]
+47 max prime number
+2 min prime number
