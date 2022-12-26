@@ -1,0 +1,25 @@
+#unique single number for the duplicate list
+l=[]
+n=int(input("enter your number:"))
+l=list(map(int,input().split()))
+for i in range(1,n):
+    x=int(input())
+    l.append(x)
+for j in l:
+    count=2
+    for k in l:
+        if(j==k):
+            count=count+1
+    if(count==3):
+        print(j,"unique number")
+OUTPUT:
+enter your number:5
+12
+12
+3
+45
+21
+3 unique number
+45 unique number
+21 unique number
+
