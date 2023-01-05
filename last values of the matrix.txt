@@ -1,0 +1,20 @@
+#print diff between from the last of the list
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+l.sort()
+m=l[k:]
+print(m)
+print(max(m)-min(m))
+
+OUTPUT:
+    7
+112 25 5 65 95 100 200
+2
+[65, 95, 100, 112, 200]
+135
+
+
+
+
+
