@@ -1,0 +1,20 @@
+#identify the email account
+email=input()
+if email.endswith("@gmail.com"):
+    print('you are using google account')
+elif email.endswith('@yahoo.com'):
+    print('you are using yahoo account')
+elif email.endswith('@adc.aditya.ac.in'):
+    print('you are using aditya educational institute account')
+else:
+    print('invalid email account')
+OUTPUT:
+renuka@gmail.com
+you are using google account
+renuka@yahoo.com
+you are using yahoo account
+renuka@adc.aditya.ac.in
+you are using aditya educational institute account
+renuka@bussiness.com
+invalid email account
+
