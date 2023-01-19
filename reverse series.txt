@@ -1,0 +1,17 @@
+#write a program in reverse order
+s=input()
+n=len(s)
+i=n
+while(i>0):
+    for j in range(i):
+        print(s[j],end='')
+    print()
+    i=i-1
+OUTPUT:
+    aditya
+aditya
+adity
+adit
+adi
+ad
+a

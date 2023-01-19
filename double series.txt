@@ -1,0 +1,14 @@
+#double series
+
+s=input()
+p=int(input())
+x=''
+y=''
+for i in s:
+    for j in range(p):
+        x=x+i
+print(x)
+OUTPUT:
+    aditya
+2
+aaddiittyyaa
