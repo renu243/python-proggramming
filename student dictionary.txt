@@ -1,0 +1,34 @@
+#STUDENT DICTIONARY
+st={1:['satish','mpcs','adckkd',12345],2:['swapna','bca','awdcsklm',456765],3:['priya','mecs','adcsklm',9987978]}
+print('student name:',st[1][0])
+print('group:',st[1][1])
+print('branch:',st[1][2])
+print('student phno:',st[1][3])
+int={}
+n=int(input('enter student number:'))
+for i in range(1,n+1):
+    l=[]
+    stname=input('enter the student name:')
+    grp=input('enter the group designation:')
+    branch=input('enter the branch:')
+    phno=int(input('enter the phone number:'))
+    l.append(stname)
+    l.append(grp)
+    l.append(branch)
+    l.append(phno)
+    clg[stno]
+print(stno)
+stname=input('enter student number for details')
+print('student name:',clg[stno][0])
+print('group:',clg[stno][1])
+print('branch:',clg[stno][2])
+print('phno:',clg[stno][3])
+             
+OUTPUT:
+
+ student name: satish
+group: mpcs
+branch: adckkd
+student phno: 12345
+enter student number:            
+             
