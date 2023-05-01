@@ -1,0 +1,19 @@
+#PYTHON PART 2
+#PROGRTAM TO CREATE PLAYER DICTIONARY
+cric={}
+n=int(input('enter a number of player:'))
+for i in range(1,n+1):
+    r=int(input('enter phno'))
+    name=input('enter pname')
+    cric[r]=name
+print(cric)
+    
+OUTPUT:
+enter a number of player:3
+enter phno45
+enter pname rohitsharma
+enter phno7
+enter pname dhoni
+enter phno18
+enter pname viratkohli
+{45: 'rohitsharma', 7: 'dhoni', 18: 'viratkohli'}
