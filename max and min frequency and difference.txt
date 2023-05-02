@@ -1,0 +1,28 @@
+#max and min frequency numbers and print their difference
+
+
+l=list(map(int,input().split()))
+d={}
+for i in l:
+    if i not in d:
+         d[i]=1
+    else:
+         d[i]=d[i]+1
+m=list(d.values())
+r=min(m)
+s=max(m)
+for i in d:
+    if d[i]==s:
+       a=i
+       print("max:",i)
+    if d[i]==r:
+       b=i
+       print('min:', i)
+print("dif:",abs(a-b))
+
+
+OUTPUT:
+    1 2 3 4 5 6 7 1 2 3 4 5 7 5 5 5
+max: 5
+min: 6
+dif: 1

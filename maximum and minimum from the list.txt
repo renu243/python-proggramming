@@ -1,0 +1,11 @@
+#print min and max
+n=int(input())
+l=list(map(int,input().split()))
+print(max(l))
+print(min(l))
+
+OUTPUT:
+7
+1 2 3 4 5  6 7
+7
+1
