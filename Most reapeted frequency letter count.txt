@@ -1,0 +1,14 @@
+#most reapeted frequency letter count
+par=input()
+ch=input()
+count=0
+for i in par:
+    if i==ch:
+        count=count+1
+print(count)
+
+OUTPUT:
+
+this is aditya degree college
+e
+5

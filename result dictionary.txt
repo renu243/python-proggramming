@@ -1,0 +1,26 @@
+#result dictionary
+
+p=int(input("enter your range"))
+l={}
+l1=[]
+for i in range(0,p):
+    l1=input().split()
+    l[l1[0]]=l1[1]
+    l1=[]
+
+for j in l:
+    if l[j]=="pass":
+         print(j,l[j],'the exam')
+    elif l[j]=="fail":
+         print(j,l[j],'the exam')
+    else:
+        print(" No Result Found")
+enter your range4
+ramu pass
+rani fail
+devi pass
+uma fail
+ramu pass the exam
+rani fail the exam
+devi pass the exam
+uma fail the exam
