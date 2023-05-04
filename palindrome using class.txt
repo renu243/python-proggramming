@@ -1,0 +1,21 @@
+#write a program to check the palindrome  or not using classes
+class solution:
+    def palindrome(self,n):
+        temp=n
+        rev=0
+        rem=0
+        while(n!=0):
+            rem=n%10
+            rev=rev*10+rem
+            n=n//10
+        if(temp==rev):
+            print('palindrome')
+        else:
+            print('not a palindrome')
+n=int(input('enter a  number:'))
+p=solution()
+p.palindrome(n)
+        
+output:
+    enter a  number:232
+palindrome
